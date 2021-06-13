@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+html, body{
+  /* background-color: #fdc518; */
+  font-size: 18px;
+}
+.mango{
+  color: #fdc518;
+}
+.bg-mango{
+  color: #fdc518;
+}
+.red{
+ color: #db0811;
+}
+.bg-red{
+  background-color: #db0811 !important;
+ }
+.light{
+  color: #fef1bd;
+}
+.bg-light{
+  background-color: #fef1bd;
+}
+.white{
+  color: white;
+}
+
+.btn{
+  padding: 8px 15px;
+  background-color: #fdc518;
+  color: #db0811;
+  font-weight: 700;
+}
+
+.fs-60{
+  font-size: 60px;
+}
+.fs-20{
+  font-size: 20px;
+}
+.fs-14{
+  font-size: 14px;
+}

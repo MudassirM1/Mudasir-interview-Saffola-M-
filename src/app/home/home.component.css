@@ -1,0 +1,36 @@
+.main{
+  height: 100vh;
+}
+
+.bg-top{
+  position: absolute;
+  top: 0;
+}
+
+.mt-100{
+  margin-top: 100px;
+}
+.mt-150{
+  margin-top: 150px;
+}
+
+@media screen and (min-width:576px) and (max-width: 2500px){
+  .hide-web{
+    display: none !important;
+  }
+}
+@media screen and (min-width:320px) and (max-width: 576px){
+  .hide-mob{
+    display: none;
+  }
+  .mt-150{
+    margin-top: 0px;
+  }
+  .fs-60{
+    font-size: 30px;
+  }
+  .mob-center{
+    text-align: center;
+  }
+
+}
