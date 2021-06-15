@@ -1,0 +1,48 @@
+.fs-14{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.air-1{
+  position: absolute;
+    top: 80px;
+    right: -20px;
+}
+.air-2{
+  position: absolute;
+    top: 80px;
+    right: -20px;
+}
+.b-top{
+  position: absolute;
+  left: 0;
+  z-index: 99;
+  /* top: -2px; */
+  bottom: -10px;
+}
+
+@media screen and (min-width:576px) and (max-width: 2500px){
+  .hide-web{
+    display: none;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width: 576px){
+  .hide-mob{
+    display: none;
+  }
+  .px-zero{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .fs-14{
+    font-size: 12px;
+  }
+  .upper-arrow{
+    left: 0;
+    position: absolute;
+    top: -1px;
+    transform: rotate(0deg);
+    z-index: 99;
+  }
+}

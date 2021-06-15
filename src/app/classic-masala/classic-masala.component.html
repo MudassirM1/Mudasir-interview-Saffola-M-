@@ -1,21 +1,24 @@
 
 <section id="Classic">
-  <div class="col-xl-12">
-    <img src="./assets/img/classic-btop.svg" width="100%" class="b-top">
+  <div class="col-xl-12 col-12">
+    <img src="./assets/img/classic-btop.svg" width="100%" class="b-top hide-mob">
+    <img src="./assets/img/upper-mob.svg" width="100%" class="upper-arrow hide-web">
   </div>
 
-  <div class="col-xl-12 py-5">
-    <div class="col-xl-10 row mx-auto">
-      <div class="col-xl-6">
-        <img src="./assets/img/classic/classic masala.png">
+  <div class="col-xl-12 col-12 py-5">
+    <div class="col-xl-10 col-12 row mx-auto px-zero">
+      <div class="col-xl-6 col-12 ">
+        <img src="./assets/img/classic/classic masala.png" class="hide-mob">
       </div>
-      <div class="col-xl-6 text-center mt-5">
+      <div class="col-xl-6 col-12 text-center mt-5 px-zero">
         <h1>Classic Masala</h1>
-        <p class="mb-0">Your favourite mix desi spices now in a chatpata snack!</p>
-        <p class="mb-0">Enjoy a bowl of mouth-watering Classic Masala falvour</p>
-        <p class="mb-0">for that classic taste in delightful Saffola masala oats!</p>
+        <p class="mb-0 fs-14">Your favourite mix desi spices now in a chatpata snack!
+        Enjoy a bowl of mouth-watering Classic Masala falvour
+        for that classic taste in delightful Saffola masala oats!</p>
 
-        <div class="col-10 mx-auto bg-yellow px-0 py-4 mt-100">
+        <img src="./assets/img/classic/classic masala.png" class="class-img hide-web mt-3">
+
+        <div class="col-xl-10 col-12  mx-auto bg-yellow px-0 py-4 mt-100 px-zero">
           <button class="btn-red bg-red">Add ons</button>
           <img src="./assets/img/classic/cinnamon.png" class="cinnamon">
            <p class="mb-0 fs-12">Top your bowl of classic masala oats with crushed peanuts for the extra bite</p>
@@ -23,10 +26,57 @@
 
       </div>
     </div>
-    <div class="col-xl-10 mx-auto text-center">
+    <div class="col-xl-10 xol-12 mx-auto text-center px-zero">
       <p class="fs-14">Disclaimer: Vegetables are dehydrated to maintain goodness and taste, Creative visualization, Suggested garnishing</p>
     </div>
   </div>
 
+
+<!-- //////////////////////////////////////////////////////////////////////  -->
+
+<div class="container pb-5">
+  <owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide [width]="300">
+      <div class="col-12 row mx-0 card px-0">
+        <div class="col-5 pr-0">
+          <img src="./assets/img/classic/Bitmap-15.png" class="img">
+        </div>
+        <div class="col-7 pl-0">
+          <h6 class="pt-4 mb-0">Classic Masala</h6>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template carouselSlide [width]="300">
+      <div class="col-12 row mx-0 card px-0">
+        <div class="col-5 pr-0">
+          <img src="./assets/img/classic/Bitmap-18.png" class="img">
+        </div>
+        <div class="col-7 pl-0">
+          <h6 class="pt-4 mb-0">Peppy Tomato</h6>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template carouselSlide [width]="300">
+      <div class="col-12 row mx-0 card px-0">
+        <div class="col-5 pr-0">
+          <img src="./assets/img/classic/Bitmap-16.png" class="img">
+        </div>
+        <div class="col-7 pl-0">
+          <h6 class="pt-4 mb-0">Veggie Twist</h6>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template carouselSlide>
+      <div class="col-12 row mx-0 card px-0">
+        <div class="col-5 pr-0">
+          <img src="./assets/img/classic/Bitmap-15.png" class="img">
+        </div>
+        <div class="col-7 pl-0">
+          <h6 class="pt-4 mb-0">Masala Coriander</h6>
+        </div>
+      </div>
+    </ng-template>
+  </owl-carousel-o>
+</div>
 
 </section>

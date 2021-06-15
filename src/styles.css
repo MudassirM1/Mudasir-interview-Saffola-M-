@@ -2,16 +2,16 @@
 
 
 html, body{
-  /* background-color: #fdc518; */
+  background-color: #fdc518;
   font-size: 18px;
 }
 .mango{
   color: #fdc518;
 }
 .bg-mango{
-  color: #fdc518;
+  background-color: #fdc518 !important;
 }
-.red{
+.red, .fa-chevron-left, .fa-chevron-right{
  color: #db0811;
 }
 .bg-red{
@@ -21,7 +21,7 @@ html, body{
   color: #fef1bd;
 }
 .bg-light{
-  background-color: #fef1bd;
+  background-color: #fef1bd !important;
 }
 .white{
   color: white;
@@ -42,4 +42,16 @@ html, body{
 }
 .fs-14{
   font-size: 14px;
+}
+
+
+.owl-item{
+  text-align: center !important;
+}
+.owl-item:active{
+  width: 315px !important;
+}
+.fa-angle-left{
+  color: red !important;
+  background-color: black !important;
 }

@@ -13,7 +13,7 @@ import { EasyToCookComponent } from './easy-to-cook/easy-to-cook.component';
 import { SteamingYummyComponent } from './steaming-yummy/steaming-yummy.component';
 import { FoodieComponent } from './foodie/foodie.component';
 import { FollowUsComponent } from './follow-us/follow-us.component';
-
+import { CarouselModule } from 'ngx-owl-carousel-o';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +29,9 @@ import { FollowUsComponent } from './follow-us/follow-us.component';
   ],
   imports: [
     BrowserModule,
+    CarouselModule,
     AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
